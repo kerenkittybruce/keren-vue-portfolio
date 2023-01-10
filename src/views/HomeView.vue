@@ -73,22 +73,23 @@ export default {
 }
 
 .text h1 {
-  font-size: 4rem;
+  font-size: 5rem;
+  font-weight: bolder;
   /*line-weight:;*/
   /*margin-left: -10px;*/
   color: transparent;
   -webkit-text-stroke: 1px #890230;
-  /*	background-image: url();
-	-webkit-background-clip: text;
-	background-position: 0 0;
-	animation: back 20s linear infinite;*/
+  background-image: url("../assets/watercolorgirl-strip.png");
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
 }
 
-/*@keyframes back{
-	100%{
-		background-position: 2000px 0;
-	}
-}*/
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
+}
 
 .text p {
   font-size: 1.2rem;
