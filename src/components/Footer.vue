@@ -1,0 +1,42 @@
+<template>
+  <div class="footer">
+    <h2>ⓒ Keren Bruce 2022 | All Rights Reserved .</h2>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "FooterComponent",
+
+  data() {
+    return {};
+  },
+
+  mounted() {},
+
+  methods: {},
+};
+</script>
+
+<style scoped>
+.footer {
+  width: 100%;
+  padding: 3%;
+  background-color: black;
+  color: #ffd9da;
+  text-align: center;
+  justify-content: center;
+  overflow-x: hidden;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-family: monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.footer h2 {
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+</style>
