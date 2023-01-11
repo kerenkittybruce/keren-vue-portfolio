@@ -79,7 +79,7 @@ export default {
   /*margin-left: -10px;*/
   color: transparent;
   -webkit-text-stroke: 1px #890230;
-  background-image: url("../assets/watercolorgirl-strip.png");
+  background-image: url("../assets/favpng_rose-flower-pattern.png");
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 20s linear infinite;
