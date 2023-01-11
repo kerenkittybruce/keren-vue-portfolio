@@ -1,30 +1,27 @@
 <template>
-    <div>
-        
-        
-    </div>
+  <Form />
 </template>
 
 <script>
+import Form from "@/components/Form.vue";
 export default {
-    name: 'KerenPortfolioContactView',
+  name: "ContactView",
+  components: {
+    Form,
+  },
 
-    data() {
-        return {
-            
-        };
-    },
+  data() {
+    return {};
+  },
 
-    mounted() {
-        
-    },
+  mounted() {},
 
-    methods: {
-        
-    },
+  methods: {},
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+
+
 
 </style>

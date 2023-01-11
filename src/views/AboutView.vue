@@ -65,6 +65,7 @@ export default {
   padding: 0;
   overflow-x: hidden;
   box-sizing: content-box;
+  flex-wrap: wrap;
   font-family: monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

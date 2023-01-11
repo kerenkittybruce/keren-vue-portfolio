@@ -40,6 +40,7 @@ export default {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  flex-wrap: wrap;
   font-family: monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -121,10 +122,10 @@ export default {
 .main--btn {
   padding: 2%;
   width: 35%;
+  background-color: #ffd9da;
   color: #89023e;
   font-size: 1.25rem;
   font-weight: bold;
-  border: 2.5px solid #ffd9da;
   border-radius: 0.5rem;
 }
 

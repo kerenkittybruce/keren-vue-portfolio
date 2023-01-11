@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <h2>ⓒ Keren Bruce 2022 | All Rights Reserved .</h2>
+    <h2>ⓒ Keren Chelsea Bruce 2022 | All Rights Reserved .</h2>
   </div>
 </template>
 
@@ -21,7 +21,7 @@ export default {
 <style scoped>
 .footer {
   width: 100%;
-  padding: 3%;
+  padding: 2.5%;
   background-color: black;
   color: #ffd9da;
   text-align: center;

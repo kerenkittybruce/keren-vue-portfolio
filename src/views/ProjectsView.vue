@@ -1,29 +1,21 @@
 <template>
-    <div>
-        
-    </div>
+  <div></div>
 </template>
 
 <script>
 export default {
-    name: 'KerenPortfolioProjectsView',
+  name: "KerenPortfolioProjectsView",
 
-    data() {
-        return {
-            
-        };
-    },
-
-    mounted() {
+  data() {
+    return {
         
-    },
+    };
+  },
 
-    methods: {
-        
-    },
+  mounted() {},
+
+  methods: {},
 };
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style scoped></style>
