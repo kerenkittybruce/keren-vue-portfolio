@@ -80,7 +80,7 @@ export default {
   font-size: 8rem;
   font-weight: bolder;
   color: transparent;
-  -webkit-text-stroke: 1.2px #ffd9da;
+  -webkit-text-stroke: 1.05px #ffd9da;
   background-image: url("../assets/favpng_rose-flower-pattern.png");
   -webkit-background-clip: text;
   background-position: 0 0;
