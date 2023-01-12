@@ -1,29 +1,23 @@
 <template>
-    <div>
-        
-    </div>
+  <ResumeInfo />
 </template>
 
 <script>
+import ResumeInfo from "@/components/Resume.vue";
 export default {
-    name: 'KerenPortfolioResumeView',
+  name: "ResumeView",
+  components: {
+    ResumeInfo,
+  },
 
-    data() {
-        return {
-            
-        };
-    },
+  data() {
+    return {};
+  },
 
-    mounted() {
-        
-    },
+  mounted() {},
 
-    methods: {
-        
-    },
+  methods: {},
 };
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style scoped></style>

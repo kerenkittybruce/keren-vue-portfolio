@@ -1,13 +1,13 @@
 <template>
-  <MyProducts />
+  <MyProjects />
 </template>
 
 <script>
-import MyProducts from "@/components/MyProducts.vue";
+import MyProjects from "@/components/MyProjects.vue";
 export default {
   name: "ProjectsView",
   components: {
-    MyProducts,
+    MyProjects,
   },
 
   data() {

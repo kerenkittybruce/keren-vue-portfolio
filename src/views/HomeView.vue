@@ -77,7 +77,7 @@ export default {
 }
 
 .text h1 {
-  font-size: 6rem;
+  font-size: 8rem;
   font-weight: bolder;
   color: transparent;
   -webkit-text-stroke: 1.2px #ffd9da;
@@ -110,7 +110,7 @@ export default {
   margin-bottom: 0;
   padding: 2%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }

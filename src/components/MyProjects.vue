@@ -12,6 +12,7 @@
         <a :href="myProjectsData.myProjects[index].link"
           ><img src="../assets/netlify.png" alt="site-link"
         /></a>
+        <br />
         <a :href="myProjectsData.myProjects[index].github"
           ><img class="github" src="../assets/github2.png" alt="github"
         /></a>
@@ -23,7 +24,7 @@
 <script>
 import jsonData from "/Users/Admin/keren-portfolio/projects.json";
 export default {
-  name: "MyProducts",
+  name: "MyProjects",
 
   data() {
     return {
@@ -66,7 +67,7 @@ export default {
 .site-links {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
 
@@ -75,7 +76,7 @@ export default {
   margin: 1.25%;
 }
 
-/*.github{
-    width: 100%;
-}*/
+.github {
+  padding-left: 0.5rem;
+}
 </style>

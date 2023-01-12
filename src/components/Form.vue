@@ -1,7 +1,7 @@
 <template>
   <section id="contact" class="contact">
-    <h1>Talk To Me . . . 💕💕</h1>
     <div class="form">
+      <h1>Talk To Me . . . 💕💕</h1>
       <form action="mailto:kerenchelseabruce@gmail.com">
         <div class="fullname">
           <label for="firstName">First Name :</label>
@@ -89,8 +89,8 @@ export default {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
-  padding: 2%;
-  background-color: #ffd9da;
+  padding: 3%;
+  background-color: rgba(255, 217, 218, 0.873);
   flex-wrap: wrap;
 }
 
