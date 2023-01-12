@@ -69,9 +69,13 @@ export default {
   font-family: monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("/Users/Admin/keren-portfolio/src/assets/—Pngtree—high\ grade\ black\ jewelry\ luxurious_929300.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 section {
-  margin: 8%;
+  margin: 7.75%;
   padding: 5%;
   display: flex;
   flex-direction: row;
@@ -80,7 +84,6 @@ section {
 
 .profile,
 .abt-desc {
-  background-color: rgba(137, 2, 47, 0.912);
   color: #ffd9da;
   padding: 2.5%;
   font-size: large;

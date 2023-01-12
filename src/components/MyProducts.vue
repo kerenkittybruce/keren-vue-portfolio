@@ -3,7 +3,7 @@
     <div
       class="proj-card"
       v-for="(item, index) in myProjectsData.myProjects"
-      :key="items"
+      :key="item"
     >
       <h2>{{ myProjectsData.myProjects[index].title }}</h2>
       <img :src="myProjectsData.myProjects[index].image" alt="product-image" />
