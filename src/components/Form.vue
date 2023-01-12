@@ -9,6 +9,7 @@
             id="fname"
             name="firstname"
             placeholder="What is your first name ?"
+            required
           />
         </div>
         <div class="lastname">
@@ -18,6 +19,7 @@
             id="lname"
             name="lastname"
             placeholder="What is your last name ?"
+            required
           />
         </div>
         <div class="email">
@@ -27,6 +29,7 @@
             id="email"
             name="email"
             placeholder="Enter your e-mail address ."
+            required
           />
         </div>
         <div class="message">
@@ -71,18 +74,18 @@ export default {
 }
 
 .contact {
-  margin: 2%;
   padding: 9.5%;
   width: 100%;
-  position: relative;
 }
 
 .form {
-  top: 3%;
+  top: 2%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  padding: 2.5%;
+  background-color: #ffd9da;
 }
 
 input,

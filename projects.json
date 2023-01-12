@@ -1,0 +1,52 @@
+{
+    "myProjects" : [
+        {
+            "id" : 1,
+            "title" : "Calculator",
+            "description" : "This is my first task using JavaScript .",
+            "image" : "link",
+            "firebase" : "link",
+            "github" : "link"
+        },
+        {
+            "id" : 2,
+            "title" : "E-commerce Site",
+            "description" : "This is my first e-commerce site .",
+            "image" : "link",
+            "firebase" : "link",
+            "github" : "link"
+        },
+        {
+            "id" : 3,
+            "title" : "Blog",
+            "description" : "This is a personal blog site .",
+            "image" : "link",
+            "firebase" : "link",
+            "github" : "link"
+        },
+        {
+            "id" : 4,
+            "title" : "Project-Four",
+            "about" : "This is my fourth project.",
+            "description" : "link",
+            "firebase" : "link",
+            "github" : "link"
+        },
+        {
+            "id" : 5,
+            "title" : "Project-Five",
+            "about" : "This is my fifth project .",
+            "description" : "link",
+            "firebase" : "link",
+            "github" : "link"
+        },
+        {
+            "id" : 6,
+            "title" : "Project-six",
+            "description" : "This is my sixth project .",
+            "image" : "link",
+            "firebase" : "link",
+            "github" : "link"
+        }
+    ]
+};
