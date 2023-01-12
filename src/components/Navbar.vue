@@ -35,12 +35,12 @@ nav {
 }
 
 nav router-link {
-  color: black;
+  color: #1b2021;
 }
 
 nav a {
   font-weight: bold;
-  color: black;
+  color: #1b2021;
 }
 
 nav router-link:hover {

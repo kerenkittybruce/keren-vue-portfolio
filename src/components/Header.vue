@@ -27,7 +27,7 @@ export default {
 .header {
   position: fixed;
   width: 100%;
-  color: black;
+  color: #1b2021;
   box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.5);
 }
 

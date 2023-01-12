@@ -1,5 +1,6 @@
 <template>
   <section id="contact" class="contact">
+    <h1>Talk To Me . . . 💕💕</h1>
     <div class="form">
       <form action="mailto:kerenchelseabruce@gmail.com">
         <div class="fullname">
@@ -39,7 +40,7 @@
             name="subject"
             rows="5"
             cols="8"
-            placeholder="What's on your mind ?"
+            placeholder="What's on your mind ? Tell me and I'll respond to you as soon as possible ."
           ></textarea>
         </div>
         <div class="submit">
@@ -70,30 +71,36 @@ export default {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  flex-wrap: wrap;
 }
 
 .contact {
-  padding: 9.5%;
+  padding: 6%;
   width: 100%;
+  min-height: 100vh;
+}
+
+.contact h1 {
+  font-size: 3.25rem;
 }
 
 .form {
-  top: 2%;
+  top: 2.5%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  padding: 2.5%;
+  width: 70%;
+  padding: 2%;
   background-color: #ffd9da;
+  flex-wrap: wrap;
 }
 
 input,
 textarea {
   padding: 2%;
   width: 100%;
-  border: 0.25rem solid #89023e;
-  border-radius: 6px;
+  border: 2px solid #89023e;
+  border-radius: 2px;
+  background-color: #ffd9da;
   box-sizing: border-box;
   resize: vertical;
 }
@@ -109,13 +116,13 @@ button {
   border: 2px solid #89023e;
   background-color: #89023e;
   color: #ffd9da;
-  border-radius: 6px;
+  border-radius: 2px;
   font-weight: bold;
   padding: 2%;
 }
 
 button:hover {
-  border: 0.25rem solid #89023e;
+  border: 2px solid #89023e;
   background-color: #ffd9da;
   color: #89023e;
 }

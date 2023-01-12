@@ -13,7 +13,9 @@
           I build <span class="text--desc">elegant</span>,
           <span class="text--desc">reliable</span> and
           <span class="text--desc">functional</span> websites for various
-          companies and aspire to become a
+          companies
+          <br />
+          and aspire to become a
           <span class="text--desc">full stack developer</span> .
         </p>
       </div>
@@ -50,15 +52,16 @@ export default {
 /* ----- Landing Page ----- */
 
 .home {
-  top: 6%;
+  top: 5.75%;
   left: 0;
   right: 0;
   bottom: 0;
   width: 100%;
-  position: absolute;
+  min-height: 100vh;
   overflow: hidden;
   padding: 8%;
-  color: #ea638c;
+  color: #ffd9da;
+  background-color: #30343f;
   background-image: url("../assets/pink-flower-girl.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -74,12 +77,10 @@ export default {
 }
 
 .text h1 {
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: bolder;
-  /*line-weight:;*/
-  /*margin-left: -10px;*/
   color: transparent;
-  -webkit-text-stroke: 1px #890230;
+  -webkit-text-stroke: 1.2px #ffd9da;
   background-image: url("../assets/favpng_rose-flower-pattern.png");
   -webkit-background-clip: text;
   background-position: 0 0;
@@ -98,7 +99,7 @@ export default {
 
 .text--desc {
   font-size: 1.25rem;
-  color: #890230;
+  color: #ea638e;
   font-style: italic;
 }
 
