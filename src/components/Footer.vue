@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <h2>ⓒ Keren Chelsea Bruce 2022 | All Rights Reserved .</h2>
+    <h2>ⓒ Keren Chelsea Bruce 2023 | All Rights Reserved .</h2>
   </div>
 </template>
 
