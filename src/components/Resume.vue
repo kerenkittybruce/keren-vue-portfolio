@@ -50,6 +50,7 @@ export default {
 
 .tech-card {
   margin: 2%;
+  display: flex;
   flex-wrap: 0 0 45%;
   background-color: #89023e;
   border-radius: 2rem;

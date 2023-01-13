@@ -1,5 +1,25 @@
 <template>
   <div class="container">
+    <div class="proj-intro">
+      <h1 class="proj-title">Projects 🖤</h1>
+      <br />
+      <p class="proj-paragraph">
+        <b
+          >I would love to develop games, as well as useful web applications and
+          software.</b
+        >
+        <em
+          >I have worked on websites, portfolios, web applications and utility
+          sites.</em
+        >
+        <b
+          >I am looking to work alongside gaming companies to further enhance my
+          skills and capabilities, while providing efficient, captivating and
+          highly recommended user experience.</b
+        >
+        Here is a list of some projects I have completed :
+      </p>
+    </div>
     <div
       class="proj-card"
       v-for="(item, index) in myProjectsData.myProjects"
@@ -16,11 +36,11 @@
       </p>
       <div class="site-links">
         <a :href="myProjectsData.myProjects[index].link"
-          ><img src="../assets/netlify.png" alt="site-link"
+          ><img class="link-img" src="../assets/netlify.png" alt="site-link"
         /></a>
         <br />
         <a :href="myProjectsData.myProjects[index].github"
-          ><img class="github" src="../assets/github2.png" alt="github"
+          ><img class="link-img" src="../assets/github2.png" alt="github"
         /></a>
       </div>
     </div>
@@ -46,7 +66,7 @@ export default {
 
 <style scoped>
 .container {
-  margin-top: 5%;
+  margin-top: 3%;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -58,10 +78,26 @@ export default {
   color: #ffd9da;
 }
 
+.proj-intro {
+  margin: 1.5%;
+  padding: 2%;
+  width: 100%;
+  color: #30343f;
+  text-align: center;
+}
+
+.proj-title {
+  font-size: 2rem;
+}
+
+.proj-paragraph {
+  font-size: 1.5rem;
+}
+
 .proj-card {
   margin: 2%;
   padding: 2%;
-  width: 50%;
+  width: 65%;
   background-color: #89023e;
   border-radius: 2rem;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 4px 8px;
@@ -81,12 +117,9 @@ export default {
   align-items: center;
 }
 
-.site-links img {
-  height: 2rem;
-  margin: 1.25%;
-}
-
-.github {
-  padding-left: 0.5rem;
+.link-img {
+  height: 2.25rem;
+  width: 2.25rem;
+  margin: 1.5%;
 }
 </style>
