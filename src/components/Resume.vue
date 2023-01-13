@@ -3,12 +3,12 @@
     <div class="tech-container">
       <div
         class="tech-card"
-        v-for="(item, index) in myTechLearned.techLearned"
+        v-for="(item, index) in myTechLearned.skills"
         :key="item"
       >
-        <h2>{{ myTechLearned.techLearned[index].name }}</h2>
-        <img :src="myTechLearned.techLearned[index].image" alt="tech-logo" />
-        <p>{{ myTechLearned.techLearned[index].description }}</p>
+        <h2>{{ myTechLearned.skills[index].name }}</h2>
+        <img :src="myTechLearned.skills[index].image" alt="tech-logo" />
+        <p>{{ myTechLearned.skills[index].description }}</p>
       </div>
     </div>
   </section>
