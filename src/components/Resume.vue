@@ -7,21 +7,27 @@
         :key="item"
       >
         <h2>{{ myTechLearned.skills[index].name }}</h2>
-        <img :src="myTechLearned.skills[index].image" alt="tech-logo" />
-        <p>{{ myTechLearned.skills[index].description }}</p>
+        <img
+          class="proj-img"
+          :src="myTechLearned.skills[index].image"
+          alt="project-image"
+        />
+        <p>
+          {{ myTechLearned.skills[index].description }}
+        </p>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import jsonData from "@/components/Resume.vue";
+import jsonDataResume from "@/components/Resume.vue";
 export default {
   name: "ResumeInfo",
 
   data() {
     return {
-      myTechLearned: jsonData,
+      myTechLearned: jsonDataResume,
     };
   },
 

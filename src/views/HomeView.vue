@@ -20,10 +20,6 @@
           <span class="text--desc">full stack developer</span> .
         </p>
       </div>
-      <div class="home--buttons">
-        <a href="#projects"><button class="main--btn">My Projects</button></a>
-        <a href="#resume"><button class="main--btn">My Resume</button></a>
-      </div>
     </main>
   </section>
   <FooterComponent />
@@ -78,13 +74,14 @@ export default {
 }
 
 .text {
+  margin-top: 9.48%;
   text-align: left;
   font-size: 2rem;
   font-weight: bold;
 }
 
 .text h1 {
-  font-size: 8rem;
+  font-size: 9.2rem;
   font-weight: bolder;
   color: transparent;
   -webkit-text-stroke: 1.05px #ffd9da;
@@ -108,41 +105,5 @@ export default {
   font-size: 1.25rem;
   color: #ea638e;
   font-style: italic;
-}
-
-/* ----- Buttons on Landing Page ----- */
-
-.home--buttons {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 2%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.home--buttons a {
-  width: 35%;
-  bottom: 0;
-}
-
-.main--btn {
-  margin: 2%;
-  padding: 2%;
-  width: 35%;
-  border: 2.5px solid #ffd9da;
-  background-color: #ffd9da;
-  color: #89023e;
-  font-size: 1.25rem;
-  font-weight: bold;
-  border-radius: 0.5rem;
-}
-
-.main--btn:hover,
-.main--btn:focus {
-  color: #ffd9da;
-  background-color: #89023e;
-  border: 2.5px solid #ffd9da;
 }
 </style>
