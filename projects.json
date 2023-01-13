@@ -3,40 +3,38 @@
     {
       "id": 1,
       "title": "Calculator",
-      "description": "This is my first task using JavaScript .",
-      "image": "https://i.postimg.cc/pX5t66vS/calculator.png",
+      "description": "This is my first task using JavaScript . I am excited to try new JavaScript projects .",
+      "image": "https://i.postimg.cc/ncv7YV4k/pink-calc.webp",
       "link": "link",
-      "github": "link"
+      "github": "https://github.com/kerenkittybruce/kcb_calc"
     },
     {
       "id": 2,
       "title": "E-commerce Site",
-      "description": "This is my first e-commerce site .",
+      "description": "This is my first e-commerce site . I plan to create more so that I can become more skilled at it .",
       "image": "https://i.postimg.cc/rpXWr3y2/ecommerce.jpg",
       "link": "link",
-      "github": "link"
+      "github": "https://github.com/kerenkittybruce/STUDZ____EOMP"
     },
     {
       "id": 3,
       "title": "Blog",
-      "description": "This is a personal blog site .",
+      "description": "This is a personal blog site I made to express myself comfortably ahile also practising various coding techniques . .",
       "image": "https://i.postimg.cc/7PmgWK9S/blog-image.jpg",
       "link": "link",
-      "github": "link"
+      "github": "https://github.com/kerenkittybruce/keren_blog"
     },
     {
       "id": 4,
-      "title": "Project-Four",
-      "about": "This is my fourth project.",
-      "description": "link",
+      "title": "Flip Card Challenge",
+      "description": "This is a basic flip card challenge, showing my first attempt at making a flip card .",
       "link": "link",
-      "github": "link"
+      "github": "https://github.com/kerenkittybruce/flipcardchallenge"
     },
     {
       "id": 5,
       "title": "Project-Five",
-      "about": "This is my fifth project .",
-      "description": "link",
+      "description": "This is my fifth project .",
       "link": "link",
       "github": "link"
     },
