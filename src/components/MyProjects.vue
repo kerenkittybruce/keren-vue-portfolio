@@ -61,6 +61,7 @@ export default {
 .proj-card {
   margin: 2%;
   padding: 2%;
+  width: 50%;
   background-color: #89023e;
   border-radius: 2rem;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 4px 8px;
