@@ -1,13 +1,19 @@
 <template>
+  <HeaderComponent />
   <ResumeInfo />
+  <FooterComponent />
 </template>
 
 <script>
+import HeaderComponent from "@/components/Header.vue";
 import ResumeInfo from "@/components/Resume.vue";
+import FooterComponent from "@/components/Footer.vue";
 export default {
   name: "ResumeView",
   components: {
+    HeaderComponent,
     ResumeInfo,
+    FooterComponent,
   },
 
   data() {

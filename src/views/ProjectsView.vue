@@ -1,13 +1,19 @@
 <template>
+  <HeaderComponent />
   <MyProjects />
+  <FooterComponent />
 </template>
 
 <script>
+import HeaderComponent from "@/components/Header.vue";
 import MyProjects from "@/components/MyProjects.vue";
+import FooterComponent from "@/components/Footer.vue";
 export default {
   name: "ProjectsView",
   components: {
+    HeaderComponent,
     MyProjects,
+    FooterComponent,
   },
 
   data() {
@@ -22,7 +28,6 @@ export default {
 
 <style scoped>
 * {
-  padding: 5%;
   box-sizing: border-box;
   overflow-x: hidden;
   background-image: url("../assets/flower-decor.png");

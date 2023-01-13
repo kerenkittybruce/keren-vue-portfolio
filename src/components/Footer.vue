@@ -33,6 +33,7 @@ export default {
   font-family: monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: bold;
 }
 
 .footer h2 {

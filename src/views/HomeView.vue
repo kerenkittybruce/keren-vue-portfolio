@@ -1,4 +1,5 @@
 <template>
+  <HeaderComponent />
   <section id="home" class="home">
     <main class="main-page">
       <div class="text">
@@ -25,12 +26,18 @@
       </div>
     </main>
   </section>
+  <FooterComponent />
 </template>
 
 <script>
+import HeaderComponent from "@/components/Header.vue";
+import FooterComponent from "@/components/Footer.vue";
 export default {
   name: "HomeView",
-  components: {},
+  components: {
+    HeaderComponent,
+    FooterComponent,
+  },
 };
 </script>
 
@@ -121,8 +128,10 @@ export default {
 }
 
 .main--btn {
+  margin: 2%;
   padding: 2%;
   width: 35%;
+  border: 2.5px solid #ffd9da;
   background-color: #ffd9da;
   color: #89023e;
   font-size: 1.25rem;

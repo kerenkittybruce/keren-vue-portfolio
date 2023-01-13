@@ -106,6 +106,8 @@ textarea {
 }
 
 label {
+  margin: 2%;
+  padding: 2%;
   color: #89023e;
   text-align: center;
   font-weight: bold;

@@ -66,7 +66,7 @@ export default {
 
 <style scoped>
 .container {
-  margin-top: 3%;
+  margin-top: 6%;
   width: 100%;
   min-height: 100vh;
   display: flex;

@@ -1,19 +1,11 @@
 <template>
-  <HeaderComponent />
-  <FooterComponent />
   <router-view />
 </template>
 
 <script>
-import HeaderComponent from "@/components/Header.vue";
-import FooterComponent from "@/components/Footer.vue";
-
 export default {
   name: "KerenPortfolioApp",
-  components: {
-    HeaderComponent,
-    FooterComponent,
-  },
+  components: {},
 
   data() {
     return {};

@@ -1,4 +1,5 @@
 <template>
+  <HeaderComponent />
   <section id="about" class="about">
     <div class="profile">
       <img
@@ -43,11 +44,18 @@
       </p>
     </div>
   </section>
+  <FooterComponent />
 </template>
 
 <script>
+import HeaderComponent from '@/components/Header.vue';
+import FooterComponent from '@/components/Footer.vue';
 export default {
   name: "AboutView",
+  components:{
+    HeaderComponent,
+    FooterComponent
+  },
 
   data() {
     return {};
