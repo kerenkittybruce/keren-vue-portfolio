@@ -6,8 +6,14 @@
       :key="item"
     >
       <h2>{{ myProjectsData.myProjects[index].title }}</h2>
-      <img :src="myProjectsData.myProjects[index].image" alt="product-image" />
-      <p>{{ myProjectsData.myProjects[index].description }}</p>
+      <img
+        class="proj-img"
+        :src="myProjectsData.myProjects[index].image"
+        alt="project-image"
+      />
+      <p>
+        {{ myProjectsData.myProjects[index].description }}
+      </p>
       <div class="site-links">
         <a :href="myProjectsData.myProjects[index].link"
           ><img src="../assets/netlify.png" alt="site-link"
@@ -49,19 +55,22 @@ export default {
   align-items: center;
   flex-wrap: wrap;
   background-color: #ea638c;
-}
-
-.proj-card img {
-  height: 10rem;
+  color: #ffd9da;
 }
 
 .proj-card {
   margin: 2%;
-  flex-wrap: 0 0 45%;
+  padding: 2%;
   background-color: #89023e;
   border-radius: 2rem;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 4px 8px;
-  padding: 2%;
+}
+.proj-img {
+  width: 50%;
+}
+
+.proj-card p {
+  flex-wrap: wrap;
 }
 
 .site-links {

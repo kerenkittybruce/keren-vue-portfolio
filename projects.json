@@ -19,7 +19,7 @@
     {
       "id": 3,
       "title": "Blog",
-      "description": "This is a personal blog site I made to express myself comfortably ahile also practising various coding techniques . .",
+      "description": "This is a personal blog site I made to express myself comfortably ahile also practising various coding techniques .",
       "image": "https://i.postimg.cc/7PmgWK9S/blog-image.jpg",
       "link": "link",
       "github": "https://github.com/kerenkittybruce/keren_blog"
@@ -28,6 +28,7 @@
       "id": 4,
       "title": "Flip Card Challenge",
       "description": "This is a basic flip card challenge, showing my first attempt at making a flip card .",
+      "image": "https://i.postimg.cc/tRVRJPMM/flipcardimg.jpg",
       "link": "link",
       "github": "https://github.com/kerenkittybruce/flipcardchallenge"
     },
