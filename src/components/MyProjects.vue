@@ -81,7 +81,7 @@ export default {
 }
 
 .site-links img {
-  height: 1.5rem;
+  height: 2rem;
   margin: 1.25%;
 }
 

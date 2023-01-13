@@ -5,7 +5,7 @@
       "title": "Calculator",
       "description": "This is my first task using JavaScript . I am excited to try new JavaScript projects .",
       "image": "https://i.postimg.cc/ncv7YV4k/pink-calc.webp",
-      "link": "link",
+      "link": "https://fantastic-calc.netlify.app",
       "github": "https://github.com/kerenkittybruce/kcb_calc"
     },
     {
@@ -13,7 +13,7 @@
       "title": "E-commerce Site",
       "description": "This is my first e-commerce site . I plan to create more so that I can become more skilled at it .",
       "image": "https://i.postimg.cc/rpXWr3y2/ecommerce.jpg",
-      "link": "link",
+      "link": "https://studz.netlify.app",
       "github": "https://github.com/kerenkittybruce/STUDZ____EOMP"
     },
     {
@@ -21,7 +21,7 @@
       "title": "Blog",
       "description": "This is a personal blog site I made to express myself comfortably ahile also practising various coding techniques .",
       "image": "https://i.postimg.cc/7PmgWK9S/blog-image.jpg",
-      "link": "link",
+      "link": "https://kittys-den.netlify.app",
       "github": "https://github.com/kerenkittybruce/keren_blog"
     },
     {
@@ -29,23 +29,24 @@
       "title": "Flip Card Challenge",
       "description": "This is a basic flip card challenge, showing my first attempt at making a flip card .",
       "image": "https://i.postimg.cc/tRVRJPMM/flipcardimg.jpg",
-      "link": "link",
+      "link": "https://flip-card-challenge.netlify.app",
       "github": "https://github.com/kerenkittybruce/flipcardchallenge"
     },
     {
       "id": 5,
-      "title": "Project-Five",
-      "description": "This is my fifth project .",
-      "link": "link",
-      "github": "link"
+      "title": "Bootstrap Portfolio",
+      "description": "This is my first Bootstrap Portfolio, showcasing my personal and professional information in a stylish manner .",
+      "image": "https://i.postimg.cc/RF8pwMc9/bootstrap-portfolio-02.png",
+      "link": "https://keren-bruce-portfolio.netlify.app",
+      "github": "https://github.com/kerenkittybruce/my_portfolio"
     },
     {
       "id": 6,
-      "title": "Project-six",
-      "description": "This is my sixth project .",
-      "image": "link",
-      "link": "link",
-      "github": "link"
+      "title": "My First Portfolio",
+      "description": "This is my first portfolio .",
+      "image": "https://i.postimg.cc/ZKQt8J5n/portfolio-01.png",
+      "link": "https://keren-first-portfolio.netlify.app",
+      "github": "https://github.com/kerenkittybruce/portfolio_KCB"
     }
   ]
 }
