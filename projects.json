@@ -19,7 +19,7 @@
     {
       "id": 3,
       "title": "Blog",
-      "description": "This is a personal blog site I made to express myself comfortably ahile also practising various coding techniques .",
+      "description": "This is a personal blog site I made to express myself comfortably while also practising various coding techniques .",
       "image": "https://i.postimg.cc/7PmgWK9S/blog-image.jpg",
       "link": "https://kittys-den.netlify.app",
       "github": "https://github.com/kerenkittybruce/keren_blog"
@@ -47,6 +47,51 @@
       "image": "https://i.postimg.cc/ZKQt8J5n/portfolio-01.png",
       "link": "https://keren-first-portfolio.netlify.app",
       "github": "https://github.com/kerenkittybruce/portfolio_KCB"
+    }
+  ],
+
+  "mySkills": [
+    {
+      "id": 1,
+      "name": "IBM Cloud Introduction",
+      "description": "Through self-paced learning, this badge earner has displayed an understanding of topics such as cloud computing, cloud, IaaS, PaaS, SaaS, Hybrid Cloud, Private Cloud, data storage, and flexible infrastructure.",
+      "image": "https://i.postimg.cc/gc6Wz5Cy/ibm-cloud-intro.png"
+    },
+    {
+      "id": 2,
+      "name": "IBM Cloud Version 2",
+      "description": "Through self-paced learning, this badge earner has displayed an understanding of topics such as Cloud Foundry, Cloud-Native Applications, Containers, Container Orchestration, IBM Cloud, IBM Cloud CLI, IBM Cloud Paks, IBM Cloud Services, Kubernetes, Node.js, Red Hat OpenShift, and VMware.",
+      "image": "https://i.postimg.cc/yYPrsy8X/IBM-Cloud-V2.png"
+    },
+    {
+      "id": 3,
+      "name": "IBM DevOps 2",
+      "description": "Through self-paced learning, this badge earner has displayed an understanding of topics such as Cloud Foundry, Cloud-Native Applications, Containers, Container Orchestration, IBM Cloud, IBM Cloud CLI, IBM Cloud Paks, IBM Cloud Services, Kubernetes, Node.js, Red Hat OpenShift, and VMware.",
+      "image": "https://i.postimg.cc/3NWWNBH4/aws-cloud-prac.png"
+    },
+    {
+      "id": 4,
+      "name": "AWS Certified Cloud Practitioner",
+      "description": "Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.",
+      "image": "https://i.postimg.cc/3NWWNBH4/aws-cloud-prac.png"
+    },
+    {
+      "id": 5,
+      "name": "HTML",
+      "description": "Hypertext Markup Language, a standardized system for tagging text files to achieve font, colour, graphic, and hyperlink effects on World Wide Web pages.",
+      "image": "https://i.postimg.cc/SNWNKQTq/html.png"
+    },
+    {
+      "id": 6,
+      "name": "CSS",
+      "description": "Cascading Style Sheets, a styling method which describes how HTML elements are to be displayed on screen, paper, or in other media .",
+      "image": "https://i.postimg.cc/Gp6ZYGtf/css-logo.png"
+    },
+    {
+      "id": 7,
+      "name": "JavaScript",
+      "description": "JavaScript is an object-oriented computer programming language commonly used to create interactive effects within web browsers.",
+      "image": "https://i.postimg.cc/C1Hm1qqk/js.png"
     }
   ]
 }
