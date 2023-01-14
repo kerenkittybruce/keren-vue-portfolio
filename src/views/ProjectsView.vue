@@ -30,7 +30,7 @@ export default {
 * {
   box-sizing: border-box;
   overflow-x: hidden;
-  background-image: url("../assets/flower-decor.png");
+  background-image: url("https://i.postimg.cc/2SbtY7W7/flower-decor.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain;

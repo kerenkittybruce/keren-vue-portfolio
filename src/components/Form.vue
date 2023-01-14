@@ -74,13 +74,19 @@ export default {
 }
 
 .contact {
+  background-image: url("https://i.postimg.cc/13sghJ2L/favpng-rose-flower-pattern.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   padding: 6%;
   width: 100%;
   min-height: 100vh;
 }
 
 .contact h1 {
+  color: #ea638e;
   font-size: 3.25rem;
+  padding-bottom: 3%;
 }
 
 .form {
@@ -90,15 +96,16 @@ export default {
   margin-right: auto;
   width: 70%;
   padding: 3%;
-  background-color: rgba(255, 217, 218, 0.873);
+  background-color: #89023e;
   flex-wrap: wrap;
 }
 
 input,
 textarea {
   padding: 2%;
-  width: 100%;
-  border: 2px solid #89023e;
+  margin: 2%;
+  width: 90%;
+  border: 2px solid #ea638e;
   border-radius: 2px;
   background-color: #ffd9da;
   box-sizing: border-box;
@@ -108,7 +115,7 @@ textarea {
 label {
   margin: 2%;
   padding: 2%;
-  color: #89023e;
+  color: #ffd9da;
   text-align: center;
   font-weight: bold;
   font-size: 1.25rem;
@@ -120,6 +127,7 @@ button {
   color: #ffd9da;
   border-radius: 2px;
   font-weight: bold;
+  margin-top: 3%;
   padding: 2%;
 }
 

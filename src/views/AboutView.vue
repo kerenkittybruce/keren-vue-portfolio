@@ -48,13 +48,13 @@
 </template>
 
 <script>
-import HeaderComponent from '@/components/Header.vue';
-import FooterComponent from '@/components/Footer.vue';
+import HeaderComponent from "@/components/Header.vue";
+import FooterComponent from "@/components/Footer.vue";
 export default {
   name: "AboutView",
-  components:{
+  components: {
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
   },
 
   data() {
@@ -77,7 +77,7 @@ export default {
   font-family: monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("/Users/Admin/keren-portfolio/src/assets/—Pngtree—high\ grade\ black\ jewelry\ luxurious_929300.jpg");
+  background-image: url("https://i.postimg.cc/B6cyyZFW/Pngtree-high-grade-black-jewelry-luxurious-929300.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

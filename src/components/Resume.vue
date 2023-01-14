@@ -17,7 +17,11 @@
         Here is a list of some skills I have obtained :
       </p>
     </div>
-    <div class="res-card" v-for="(item, index) in myResData.mySkills" :key="item">
+    <div
+      class="res-card"
+      v-for="(item, index) in myResData.mySkills"
+      :key="item"
+    >
       <h2>{{ myResData.mySkills[index].name }}</h2>
       <img
         class="res-img"
@@ -109,7 +113,7 @@ export default {
   background-color: #ea638c;
   color: #ffd9da;
   font-weight: bold;
-  background-image: url("../assets/abstractpinkpaint.jpg");
+  background-image: url("https://i.postimg.cc/wBFjpzLN/abstractpinkpaint.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

@@ -32,9 +32,5 @@ export default {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  background-image: url("../assets/favpng_rose-flower-pattern.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
 }
 </style>

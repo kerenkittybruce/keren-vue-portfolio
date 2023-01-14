@@ -36,11 +36,17 @@
       </p>
       <div class="site-links">
         <a :href="myProjectsData.myProjects[index].link"
-          ><img class="link-img" src="../assets/netlify.png" alt="site-link"
+          ><img
+            class="link-img"
+            src="https://i.postimg.cc/bYKPtrRg/netlify.png"
+            alt="site-link"
         /></a>
         <br />
         <a :href="myProjectsData.myProjects[index].github"
-          ><img class="link-img" src="../assets/github2.png" alt="github"
+          ><img
+            class="link-img"
+            src="https://i.postimg.cc/8Cb9XPW2/github2.png"
+            alt="github"
         /></a>
       </div>
     </div>

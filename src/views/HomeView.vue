@@ -85,7 +85,7 @@ export default {
   font-weight: bolder;
   color: transparent;
   -webkit-text-stroke: 1.05px #ffd9da;
-  background-image: url("../assets/favpng_rose-flower-pattern.png");
+  background-image: url("https://i.postimg.cc/13sghJ2L/favpng-rose-flower-pattern.png");
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 20s linear infinite;
