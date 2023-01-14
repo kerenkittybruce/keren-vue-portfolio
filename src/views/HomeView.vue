@@ -106,4 +106,17 @@ export default {
   color: #ea638e;
   font-style: italic;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 301px) {
+  .main-page {
+    margin-top: 3rem;
+    width: 80%;
+    padding: 1%;
+    color: #ffd9da;
+    background-color: #30343f;
+    background-size: 90%;
+  }
+}
 </style>

@@ -104,7 +104,7 @@ export default {
   margin: 2%;
   padding: 2%;
   width: 65%;
-  background-color: #89023e;
+  background-color: #89023fd7;
   border-radius: 2rem;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 4px 8px;
 }
@@ -127,5 +127,30 @@ export default {
   height: 2.25rem;
   width: 2.25rem;
   margin: 1.5%;
+}
+
+/* Media Queries */
+
+.container {
+  margin-top: 30%;
+  margin-bottom: 30%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.proj-intro {
+  margin: 0.5%;
+}
+
+.proj-paragraph {
+  font-size: 1rem;
+}
+
+.proj-card {
+  width: 90%;
+}
+
+.proj-img {
+  width: 88%;
 }
 </style>
