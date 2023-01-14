@@ -199,8 +199,8 @@ hr {
   background: opacity 0.8;
 }
 
-.work-exp h2 {
-  font-size: 1.375rem;
+.res-title {
+  font-size: 2rem;
 }
 
 .position {
@@ -209,5 +209,66 @@ hr {
 
 .duration {
   font-size: 0.9rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 302px) {
+  .res-card {
+    width: 95%;
+  }
+
+  .res-card h2 {
+    font-size: xx-large;
+  }
+  .res-img {
+    width: 80%;
+  }
+
+  .res-card p {
+    font-size: larger;
+    flex-wrap: wrap;
+  }
+
+  .wrk-01 {
+    width: 95%;
+    font-size: larger !important;
+  }
+
+  .wrk-02 {
+    width: 95%;
+    font-size: larger !important;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .res-title {
+    font-size: 3rem;
+  }
+  .res-card {
+    width: 75%;
+  }
+
+  .res-card h2 {
+    font-size: 2.5rem;
+  }
+  .res-img {
+    width: 60%;
+  }
+
+  .res-card p {
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .wrk-01 {
+    width: 95%;
+    font-size: x-large !important;
+  }
+
+  .wrk-02 {
+    width: 95%;
+    font-size: x-large !important;
+  }
 }
 </style>
