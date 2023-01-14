@@ -10,7 +10,7 @@
         <h1>Keren Chelsea Bruce</h1>
         <p>Software Developer</p>
         <div class="social-media">
-          <div class="link" style="flex: 1">
+          <div class="link github" style="flex: 1">
             <img src="https://i.postimg.cc/8Cb9XPW2/github2.png" alt="github" />
             <a href="https://github.com/kerenkittybruce/kerenkittybruce"
               ><h3>Github</h3></a
@@ -138,6 +138,8 @@ section {
   flex: 1;
   width: 35%;
   border-right: 2px solid #ffd9da;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile img {
@@ -147,8 +149,8 @@ section {
 
 .social-media {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -170,7 +172,7 @@ section {
 
 .abt-desc {
   flex: 2;
-  margin-top: 6%;
+  margin-top: 4%;
   width: 65%;
   justify-content: center;
   align-items: center;
@@ -178,38 +180,11 @@ section {
 
 /* Media Queries */
 
-section {
-  margin-top: 30%;
-  margin-bottom: 30%;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.profile {
-  width: 95%;
-  border-right: none;
-  border-bottom: 2px solid #ffd9da;
-}
-
-.abt-desc {
-  width: 95%;
-}
-
-.social-media {
-  flex-direction: column;
-}
-
-.link img {
-  height: 2rem;
-  width: 2rem;
-  margin: 4%;
-  padding: 2%;
-}
-
-@media only screen and (720px) {
+@media only screen and (max-width: 301px) {
   section {
-    margin: 6%;
-    flex-direction: row;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    flex-direction: column;
     justify-content: center;
   }
 
@@ -224,7 +199,7 @@ section {
   }
 
   .social-media {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .link img {
@@ -232,6 +207,44 @@ section {
     width: 2rem;
     margin: 4%;
     padding: 2%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  section {
+    margin-top: 12%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .profile {
+    margin: 8%;
+    padding: 4%;
+    justify-content: center;
+    align-content: center;
+    width: 95%;
+  }
+
+  .profile img {
+    width: 100%;
+    margin-bottom: 3%;
+    border-radius: 50%;
+  }
+
+  .abt-desc {
+    width: 95%;
+  }
+
+  .social-media {
+    padding: 6%;
+    flex-direction: column;
+  }
+
+  .link img {
+    height: 2rem;
+    width: 2rem;
+    margin: 30%;
+    padding: 3%;
   }
 }
 </style>

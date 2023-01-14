@@ -66,8 +66,8 @@
     {
       "id": 3,
       "name": "IBM DevOps 2",
-      "description": "Through self-paced learning, this badge earner has displayed an understanding of topics such as Cloud Foundry, Cloud-Native Applications, Containers, Container Orchestration, IBM Cloud, IBM Cloud CLI, IBM Cloud Paks, IBM Cloud Services, Kubernetes, Node.js, Red Hat OpenShift, and VMware.",
-      "image": "https://i.postimg.cc/3NWWNBH4/aws-cloud-prac.png"
+      "description": "Through self-paced learning, this badge earner has completed the skill learning journey on topics such as what is DevOps, IBM Cloud Continuous Delivery, Git repos & issues tracking, scale applications dynamically, monitor app performance, debugging applications, and IBM Cloud Garage Method.",
+      "image": "https://i.postimg.cc/qMGynvRW/IBM-Cloud-V2.png"
     },
     {
       "id": 4,
