@@ -103,13 +103,13 @@ export default {
 .proj-card {
   margin: 2%;
   padding: 2%;
-  width: 65%;
+  width: 50%;
   background-color: #89023fd7;
   border-radius: 2rem;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 4px 8px;
 }
 .proj-img {
-  width: 50%;
+  width: 70%;
 }
 
 .proj-card p {
