@@ -131,26 +131,28 @@ export default {
 
 /* Media Queries */
 
-.container {
-  margin-top: 30%;
-  margin-bottom: 30%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
+@media only screen and (min-width: 720px) {
+  .container {
+    margin-top: 30%;
+    margin-bottom: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
 
-.proj-intro {
-  margin: 0.5%;
-}
+  .proj-intro {
+    margin: 0.5%;
+  }
 
-.proj-paragraph {
-  font-size: 1rem;
-}
+  .proj-paragraph {
+    font-size: 1rem;
+  }
 
-.proj-card {
-  width: 90%;
-}
+  .proj-card {
+    width: 90%;
+  }
 
-.proj-img {
-  width: 88%;
+  .proj-img {
+    width: 88%;
+  }
 }
 </style>
