@@ -131,7 +131,7 @@ export default {
 
 /* Media Queries */
 
-@media only screen and (min-width: 720px) {
+@media only screen and (max-width: 720px) {
   .container {
     margin-top: 30%;
     margin-bottom: 30%;

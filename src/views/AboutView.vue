@@ -1,5 +1,6 @@
 <template>
   <HeaderComponent />
+  <br />
   <section id="about" class="about">
     <div class="profile">
       <img
@@ -10,34 +11,33 @@
         <h1>Keren Chelsea Bruce</h1>
         <p>Software Developer</p>
         <div class="social-media">
-          <div class="link github" style="flex: 1">
-            <img src="https://i.postimg.cc/8Cb9XPW2/github2.png" alt="github" />
+          <div class="link github" style="flex: 1, width: 20%;">
             <a href="https://github.com/kerenkittybruce/kerenkittybruce"
-              ><h3>Github</h3></a
-            >
+              ><img
+                src="https://i.postimg.cc/8Cb9XPW2/github2.png"
+                alt="github"
+            /></a>
           </div>
-          <div class="link" style="flex: 2">
-            <img
-              src="https://i.postimg.cc/8c39FMyh/pngegg-69.png"
-              alt="twitter"
-            />
-            <a href="https://twitter.com/home?lang=en"><h3>Twitter</h3></a>
+          <div class="link" style="flex: 2, width: 20%;">
+            <a href="https://twitter.com/home?lang=en">
+              <img
+                src="https://i.postimg.cc/8c39FMyh/pngegg-69.png"
+                alt="twitter"
+            /></a>
           </div>
-          <div class="link" style="flex: 3">
-            <img
-              src="https://i.postimg.cc/43gCbvXP/pngegg-70.png"
-              alt="LinkedIn"
-            />
-            <a href="https://www.linkedin.com/feed/"><h3>LinkedIn</h3></a>
+          <div class="link" style="flex: 3, width: 20%;">
+            <a href="https://www.linkedin.com/feed/">
+              <img
+                src="https://i.postimg.cc/43gCbvXP/pngegg-70.png"
+                alt="LinkedIn"
+            /></a>
           </div>
-          <div class="link" style="flex: 4">
-            <img
-              src="https://i.postimg.cc/8c5gf1TV/pngegg-72.png"
-              alt="Instagram"
-            />
+          <div class="link" style="flex: 4, width: 20%;">
             <a href="https://www.instagram.com/kerenkittybruce/"
-              ><h3>Instagram</h3></a
-            >
+              ><img
+                src="https://i.postimg.cc/8c5gf1TV/pngegg-72.png"
+                alt="Instagram"
+            /></a>
           </div>
         </div>
       </div>
@@ -79,6 +79,7 @@
       </p>
     </div>
   </section>
+  <br />
   <FooterComponent />
 </template>
 
@@ -104,7 +105,6 @@ export default {
 
 <style scoped>
 * {
-  margin: 0;
   padding: 0;
   overflow-x: hidden;
   box-sizing: content-box;
@@ -112,18 +112,27 @@ export default {
   font-family: monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #30343f;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  margin-top: 7%;
 }
 
 section {
-  background-image: url("https://i.postimg.cc/B6cyyZFW/Pngtree-high-grade-black-jewelry-luxurious-929300.jpg");
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #30343f;
+  background-image: url("../assets/cherry-right.png");
+  /*background-position-x: left;*/
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  margin: 7.75%;
-  padding: 5%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
 
 .profile,
@@ -136,23 +145,40 @@ section {
 
 .profile {
   flex: 1;
-  width: 35%;
-  border-right: 2px solid #ffd9da;
+  margin-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  background-color: #ea638cb2;
+  border: 0.5px solid #ea638c;
+  border-radius: 2.5%;
+  box-shadow: 0 4px 8px 0 #ea638c;
+  border-bottom: 2px solid #ffd9da;
   justify-content: center;
   align-items: center;
 }
 
 .profile img {
-  width: 50%;
+  width: 40%;
   border-radius: 50%;
+}
+
+.profile-txt {
+  border-radius: 2%;
 }
 
 .social-media {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  margin: 5%;
+}
+
+.link {
+  width: 20%;
 }
 
 .link a {
@@ -162,18 +188,21 @@ section {
 }
 
 .link img {
-  margin: 2%;
   padding: 2%;
-  height: 3rem;
-  width: 3rem;
+  height: 2rem;
+  width: 2rem;
   background-color: #ffd9da;
   border-radius: 50%;
 }
 
 .abt-desc {
   flex: 2;
-  margin-top: 4%;
-  width: 65%;
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6%;
+  width: 50%;
+  border-radius: 2.5%;
   justify-content: center;
   align-items: center;
 }
