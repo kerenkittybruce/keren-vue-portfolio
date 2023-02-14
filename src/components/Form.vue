@@ -9,7 +9,7 @@
             type="text"
             id="fname"
             name="fullname"
-            placeholder="What is your first name ?"
+            placeholder="What is your full name ?"
             required
           />
         </div>
