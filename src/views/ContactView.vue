@@ -32,5 +32,8 @@ export default {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  font-family: monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 </style>

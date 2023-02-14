@@ -4,6 +4,7 @@
     <p class="title">What People Are Saying . . 💗</p>
     <div class="testimonials">
       <div class="t-card" v-for="test in testimonials" :key="test">
+        <img :src="test.image" alt="display-image">
         <p class="t-name" v-text="test.name"></p>
         <br />
         <p class="t-role" v-text="test.role"></p>

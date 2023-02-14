@@ -1,25 +1,15 @@
 <template>
   <section id="contact" class="contact">
     <div class="form">
-      <h1>Talk To Me . . . 💕💕</h1>
+      <h1>Talk To Me . . . 💕</h1>
       <form action="mailto:kerenchelseabruce@gmail.com">
         <div class="fullname">
-          <label for="firstName">First Name :</label>
+          <label for="fullName">Full Name :</label>
           <input
             type="text"
             id="fname"
-            name="firstname"
+            name="fullname"
             placeholder="What is your first name ?"
-            required
-          />
-        </div>
-        <div class="lastname">
-          <label for="lastName">Last Name :</label>
-          <input
-            type="text"
-            id="lname"
-            name="lastname"
-            placeholder="What is your last name ?"
             required
           />
         </div>
@@ -38,7 +28,7 @@
           <textarea
             id="subject"
             name="subject"
-            rows="5"
+            rows="3.85"
             cols="8"
             placeholder="What's on your mind ? Tell me and I'll respond to you as soon as possible ."
           ></textarea>
@@ -70,7 +60,7 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .contact {
@@ -78,23 +68,24 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 6%;
+  padding: 7%;
   width: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .contact h1 {
   color: #ea638e;
-  font-size: 3.25rem;
+  font-size: 3rem;
   padding-bottom: 3%;
 }
 
 .form {
-  top: 2.5%;
+  margin: 0%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  margin-bottom: 0%;
+  width: 60%;
   padding: 3%;
   background-color: #89023e;
   flex-wrap: wrap;
@@ -118,21 +109,24 @@ label {
   color: #ffd9da;
   text-align: center;
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 
 button {
-  border: 2px solid #89023e;
+  border: 2px solid #ffd9da;
   background-color: #89023e;
   color: #ffd9da;
   border-radius: 2px;
   font-weight: bold;
-  margin-top: 3%;
-  padding: 2%;
+  margin-top: 2.5%;
+  padding: 1.8%;
+  width: 30%;
+  font-size: 1rem;
 }
 
 button:hover {
   border: 2px solid #89023e;
+  border-radius: 2px;
   background-color: #ffd9da;
   color: #89023e;
 }
