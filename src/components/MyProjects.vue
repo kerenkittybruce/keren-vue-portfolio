@@ -127,6 +127,14 @@ export default {
   height: 2.25rem;
   width: 2.25rem;
   margin: 1.5%;
+  padding: 1%;
+}
+
+.link-img:hover {
+  height: 2rem;
+  width: 2rem;
+  background-color: #ffd9da;
+  border-radius: 50%;
 }
 
 /* Media Queries */

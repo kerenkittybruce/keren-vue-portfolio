@@ -195,6 +195,12 @@ section {
   border-radius: 50%;
 }
 
+.link img:hover {
+  background-color: #ea638e;
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
 .abt-desc {
   flex: 2;
   margin-top: 8%;
