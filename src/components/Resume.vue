@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="res-intro">
-      <h1 class="res-title">Resume 🖤</h1>
+      <h1 class="res-title" style="font-size: 3rem">Resume 🖤</h1>
       <br />
       <hr />
       <br />
@@ -22,7 +22,7 @@
       v-for="(item, index) in myResData.mySkills"
       :key="item"
     >
-      <h2>{{ myResData.mySkills[index].name }}</h2>
+      <h2 style="font-size: 1.5rem">{{ myResData.mySkills[index].name }}</h2>
       <img
         class="res-img"
         :src="myResData.mySkills[index].image"
@@ -128,11 +128,11 @@ export default {
 }
 
 .res-title {
-  font-size: 2rem;
+  text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
 }
 
 .res-skills {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .res-paragraph {
@@ -142,16 +142,17 @@ export default {
 .res-card {
   margin: 2%;
   padding: 2%;
-  width: 65%;
+  width: 47%;
   background-color: #89023e;
   border-radius: 2rem;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 4px 8px;
 }
 .res-img {
-  width: 50%;
+  width: 40%;
 }
 
 .res-card p {
+  font-size: 1.15rem;
   flex-wrap: wrap;
 }
 
