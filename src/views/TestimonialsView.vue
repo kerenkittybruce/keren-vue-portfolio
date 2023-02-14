@@ -32,7 +32,7 @@ export default {
         {
           id: 1,
           name: "💗 Candice Amon 💗",
-          image: "https://i.postimg.cc/bvxf4sTG/candice-2022.jpg",
+          image: "https://i.postimg.cc/sgXXdFHP/candice-2022.jpg",
           role: "Facilitator -- Life Choices Coding Academy",
           quote:
             "Keren has a very professional and mature approach and outlook on life. Values healthy relationships and show tremendous respect to whoever she encounters. She believes in working hard for what she wants and knows when to make sacrifices in order to succeed.",
@@ -40,7 +40,7 @@ export default {
         {
           id: 2,
           name: "💗 Oslin Johnson 💗",
-          image: "https://i.postimg.cc/VkSC9cFZ/pic2.jpg",
+          image: "https://i.postimg.cc/0NYhVjGV/pic2.jpg",
           role: "Lecturer -- Life Choices Coding Academy",
           quote:
             "Keren is a soft soul but, very determined and driven to be the best creative she can be. Her soft nature makes her a joy to work with and give good advice knowing that she will put her best foot forward in every situation.",
@@ -48,7 +48,7 @@ export default {
         {
           id: 3,
           name: "💗 Mishaine Isaacs 💗",
-          image: "https://i.postimg.cc/d311q8HN/meww.jpg",
+          image: "https://i.postimg.cc/HnYmw5f0/meww.jpg",
           role: "Colleague -- Life Choices Coding Academy",
           quote:
             "She works well under pressure and loves learning. She is highly motivated and produces elegant projects which showcase her skills accurately. She is lovely to work with, especially in a team setting. Her beautiful creativity and exceptional work ethic will ensure that your reputation keeps improving.",
@@ -72,7 +72,7 @@ export default {
         {
           id: 6,
           name: "💗 Xolelwa Manqina 💗",
-          image: "https://i.postimg.cc/Gpg3XBhk/xolelwa.jpg",
+          image: "https://i.postimg.cc/tR8QRKgt/xolelwa.jpg",
           role: "Colleague -- Life Choices Coding Academy",
           quote:
             "Keren is a hard working lady. She is organised , efficient and extremely competent with excellent rapport with people of all ages. Her communication skills are excellent no matter if you are talking about verbal or written. Her most important quality is that she always keeps herself updated with new information. Its just amazing to work with such a kind personality. I highly recommend Keren Bruce for any position or endeavor that she may pursue. She would be a valueable asset to your company.",
@@ -129,6 +129,11 @@ export default {
   margin: 5%;
   padding: 3%;
   background-color: #1b2021d2;
+}
+
+.t-card img {
+  width: 50%;
+  border-radius: 50%;
 }
 
 .t-name {
