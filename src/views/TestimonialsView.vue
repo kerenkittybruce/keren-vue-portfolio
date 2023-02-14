@@ -132,8 +132,9 @@ export default {
 }
 
 .t-card img {
-  width: 50%;
+  width: 20%;
   border-radius: 50%;
+  box-shadow: 0 3px 6px 0 rgba(234, 99, 142, 0.866);
 }
 
 .t-name {
